@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto Ticket Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Auto Ticket Classification</h1>
+    <p>Enter a support ticket and the ML model will classify it.</p>
+    <form method="POST">
+        <textarea name="ticket" placeholder="Example: My internet is not working..." required>{{ ticket }}</textarea>
+        <button type="submit">Classify Ticket</button>
+    </form>
+    {% if category %}
+    <div class="result">Predicted Category: <b>{{ category }}</b></div>
+    {% endif %}
+</div>
+</body>
+</html>

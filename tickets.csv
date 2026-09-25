@@ -1,0 +1,16 @@
+ticket_text,category
+Internet is not working,Network
+WiFi connection keeps disconnecting,Network
+Unable to connect to office network,Network
+Laptop is not turning on,Hardware
+Keyboard is not working,Hardware
+Computer screen is broken,Hardware
+Cannot login to my account,Account
+I forgot my password,Account
+Please reset my username password,Account
+Application is crashing,Software
+Software installation failed,Software
+The app shows an error message,Software
+My payment was rejected,Payment
+I was charged twice,Payment
+Payment transaction is pending,Payment

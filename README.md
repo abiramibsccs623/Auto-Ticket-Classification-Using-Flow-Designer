@@ -1,2 +1,19 @@
-# Auto-Ticket-Classification-Using-Flow-Designer
-Auto Ticket Classification using Machine Learning (ML) is a system that automatically reads and categorizes customer support tickets into predefined categories. The system analyses the ticket text and uses a machine learning model to identify the type of issue, such as Network, Hardware, Software, Account, or Payment. 
+# Auto Ticket Classification using Machine Learning
+
+## Project Description
+This project automatically classifies customer/support tickets into categories using TF-IDF and Logistic Regression.
+
+## Categories
+Network, Hardware, Account, Software, Payment
+
+## How to Run
+1. Install Python 3.
+2. Open terminal in this project folder.
+3. Run: pip install -r requirements.txt
+4. Run: python train_model.py
+5. Run: python app.py
+6. Open the displayed Flask address in a browser.
+
+## Example
+Input: My WiFi is not working
+Output: Network
